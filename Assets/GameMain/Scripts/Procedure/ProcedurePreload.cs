@@ -34,13 +34,6 @@ namespace StarForce
 
         private Dictionary<string, bool> m_LoadedFlag = new Dictionary<string, bool>();
 
-        public override bool UseNativeDialog
-        {
-            get
-            {
-                return true;
-            }
-        }
 
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {
@@ -81,8 +74,8 @@ namespace StarForce
                     return;
                 }
             }
-
-            procedureOwner.SetData<VarInt32>("NextSceneId", GameEntry.Config.GetInt("Scene.Menu"));
+            //第一个状态
+            procedureOwner.SetData<VarInt32>("NextSceneId", GameEntry.Config.GetInt("Scene.MyMenu"));
             ChangeState<ProcedureChangeScene>(procedureOwner);
         }
 

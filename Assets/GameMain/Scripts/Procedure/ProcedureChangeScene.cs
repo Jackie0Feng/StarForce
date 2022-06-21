@@ -20,13 +20,6 @@ namespace StarForce
         private bool m_IsChangeSceneComplete = false;
         private int m_BackgroundMusicId = 0;
 
-        public override bool UseNativeDialog
-        {
-            get
-            {
-                return false;
-            }
-        }
 
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {
@@ -89,14 +82,17 @@ namespace StarForce
             {
                 return;
             }
-
-            if (m_ChangeToMenu)
+            //获取有限机数据
+            int sceneId = procedureOwner.GetData<VarInt32>("NextSceneId");
+           //根据有限机数据跳转对应的场景
+            switch (sceneId)
             {
-                ChangeState<ProcedureMenu>(procedureOwner);
-            }
-            else
-            {
-                ChangeState<ProcedureMain>(procedureOwner);
+                case 3:
+                    ChangeState<ProcedureMyMain>(procedureOwner);
+                    break;
+                case 4:
+                    ChangeState<ProcedureMyMenu>(procedureOwner);
+                    break;
             }
         }
 

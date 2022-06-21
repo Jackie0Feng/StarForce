@@ -154,14 +154,6 @@ namespace StarForce
 
         public static void OpenDialog(this UIComponent uiComponent, DialogParams dialogParams)
         {
-            if (((ProcedureBase)GameEntry.Procedure.CurrentProcedure).UseNativeDialog)
-            {
-                OpenNativeDialog(dialogParams);
-            }
-            else
-            {
-                uiComponent.OpenUIForm(UIFormId.DialogForm, dialogParams);
-            }
         }
 
         private static void OpenNativeDialog(DialogParams dialogParams)

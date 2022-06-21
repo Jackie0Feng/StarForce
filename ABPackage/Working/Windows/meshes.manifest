@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 3889923408
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2795c49a9be7498db5c68591498b5cb7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f64856a3d606b613608cbf22df470c60
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Meshes/vehicle_playerShip.FBX
+- Assets/GameMain/Meshes/vehicle_enemyShip.FBX
+- Assets/GameMain/Meshes/prop_asteroid_03.FBX
+- Assets/GameMain/Meshes/prop_asteroid_01.FBX
+- Assets/GameMain/Meshes/vehicle_playerShip_collider.FBX
+- Assets/GameMain/Meshes/prop_asteroid_02.FBX
+Dependencies: []

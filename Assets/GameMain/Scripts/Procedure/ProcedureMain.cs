@@ -20,13 +20,6 @@ namespace StarForce
         private bool m_GotoMenu = false;
         private float m_GotoMenuDelaySeconds = 0f;
 
-        public override bool UseNativeDialog
-        {
-            get
-            {
-                return false;
-            }
-        }
 
         public void GotoMenu()
         {

@@ -8,13 +8,6 @@ namespace StarForce
     {
         private bool m_VerifyResourcesComplete = false;
 
-        public override bool UseNativeDialog
-        {
-            get
-            {
-                return true;
-            }
-        }
 
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {

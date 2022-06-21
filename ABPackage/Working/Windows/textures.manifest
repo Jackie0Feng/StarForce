@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 3665513582
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b2c545082db15d8e6e2cbfee0ef820bd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ff414f606ea1972259b080d7bcf51689
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Textures/part_flash_dff.tif
+- Assets/GameMain/Textures/part_star_dff.tif
+- Assets/GameMain/Textures/prop_asteroid_03_dff.tif
+- Assets/GameMain/Textures/vehicle_enemyShip_nrm.tif
+- Assets/GameMain/Textures/fx_lazer_cyan_dff.tif
+- Assets/GameMain/Textures/part_jet_core_dff.tif
+- Assets/GameMain/Textures/tile_nebula_green_dff.tif
+- Assets/GameMain/Textures/fx_lazer_orange_dff.tif
+- Assets/GameMain/Textures/part_spark_small_dff.tif
+- Assets/GameMain/Textures/part_enginePulse_dff.tif
+- Assets/GameMain/Textures/prop_asteroid_02_nrm.tif
+- Assets/GameMain/Textures/part_jet_flare_dff.tif
+- Assets/GameMain/Textures/part_shockwave_dff.tif
+- Assets/GameMain/Textures/prop_asteroid_01_dff.tif
+- Assets/GameMain/Textures/prop_asteroid_03_nrm.tif
+- Assets/GameMain/Textures/prop_asteroid_02_dff.tif
+- Assets/GameMain/Textures/part_spark_large_dff.tif
+- Assets/GameMain/Textures/vehicle_playerShip_orange_nrm.tif
+- Assets/GameMain/Textures/prop_asteroid_01_nrm.tif
+- Assets/GameMain/Textures/vehicle_enemyShip_purple_dff.tif
+- Assets/GameMain/Textures/vehicle_playerShip_orange_dff.tif
+Dependencies: []

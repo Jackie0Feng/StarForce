@@ -10,13 +10,7 @@ namespace StarForce
         private int m_UpdateResourceCount = 0;
         private long m_UpdateResourceTotalCompressedLength = 0L;
 
-        public override bool UseNativeDialog
-        {
-            get
-            {
-                return true;
-            }
-        }
+
 
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {

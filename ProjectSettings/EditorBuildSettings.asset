@@ -7,7 +7,17 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/StarForce Launcher.unity
+    guid: 9d2d51bf0fc3dfc42908e3a7a64f4feb
   - enabled: 1
     path: Assets/GameMain/Scenes/Main.unity
+    guid: 4473d81b14ddb0143addf0e6050d8491
   - enabled: 1
     path: Assets/GameMain/Scenes/Menu.unity
+    guid: b031b4f2980561542a7f7ba41391edc3
+  - enabled: 1
+    path: Assets/GameMain/Scenes/MyMain.unity
+    guid: ffdf89369aa3b58448cf29e68a0ab08b
+  - enabled: 1
+    path: Assets/GameMain/Scenes/MyMenu.unity
+    guid: d7891a4e9beca8c4482667caee21bfca
+  m_configObjects: {}

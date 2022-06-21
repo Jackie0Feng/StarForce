@@ -15,15 +15,6 @@ namespace StarForce
     {
         private bool m_StartGame = false;
         private MenuForm m_MenuForm = null;
-
-        public override bool UseNativeDialog
-        {
-            get
-            {
-                return false;
-            }
-        }
-
         public void StartGame()
         {
             m_StartGame = true;
@@ -37,6 +28,11 @@ namespace StarForce
 
             m_StartGame = false;
             GameEntry.UI.OpenUIForm(UIFormId.MenuForm, this);
+
+            //读取配置文件
+            Log.Info($"配置hello:{GameEntry.Config.GetInt("hello")}");
+            Log.Info($"配置hello world:{GameEntry.Config.GetString("helloworld")}");
+
         }
 
         protected override void OnLeave(ProcedureOwner procedureOwner, bool isShutdown)
